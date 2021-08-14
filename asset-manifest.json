@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9d3a39e3.chunk.css",
-    "main.js": "/portfolio/static/js/main.33dee4e8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.33dee4e8.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.2a13e406.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2a13e406.js.map",
-    "static/js/2.b4553e89.chunk.js": "/portfolio/static/js/2.b4553e89.chunk.js",
-    "static/js/2.b4553e89.chunk.js.map": "/portfolio/static/js/2.b4553e89.chunk.js.map",
-    "static/js/3.f5b93e96.chunk.js": "/portfolio/static/js/3.f5b93e96.chunk.js",
-    "static/js/3.f5b93e96.chunk.js.map": "/portfolio/static/js/3.f5b93e96.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.e53b13fa.chunk.css",
+    "main.js": "/portfolio/static/js/main.0fd5fc9d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0fd5fc9d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2dd5ff88.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2dd5ff88.js.map",
+    "static/js/2.fd1cf53d.chunk.js": "/portfolio/static/js/2.fd1cf53d.chunk.js",
+    "static/js/2.fd1cf53d.chunk.js.map": "/portfolio/static/js/2.fd1cf53d.chunk.js.map",
+    "static/js/3.4373b73a.chunk.js": "/portfolio/static/js/3.4373b73a.chunk.js",
+    "static/js/3.4373b73a.chunk.js.map": "/portfolio/static/js/3.4373b73a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.9d3a39e3.chunk.css.map": "/portfolio/static/css/main.9d3a39e3.chunk.css.map",
-    "static/js/2.b4553e89.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b4553e89.chunk.js.LICENSE.txt",
+    "static/css/main.e53b13fa.chunk.css.map": "/portfolio/static/css/main.e53b13fa.chunk.css.map",
+    "static/js/2.fd1cf53d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fd1cf53d.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio/static/media/Montserrat-Bold.079ca05d.ttf",
-    "static/media/unityLogo.ce3ee7a0.gltf": "/portfolio/static/media/unityLogo.ce3ee7a0.gltf"
+    "static/media/placard.7cc94612.gltf": "/portfolio/static/media/placard.7cc94612.gltf",
+    "static/media/shelf.071d4cbe.gltf": "/portfolio/static/media/shelf.071d4cbe.gltf"
   },
   "entrypoints": [
-    "static/js/runtime-main.2a13e406.js",
-    "static/js/2.b4553e89.chunk.js",
-    "static/css/main.9d3a39e3.chunk.css",
-    "static/js/main.33dee4e8.chunk.js"
+    "static/js/runtime-main.2dd5ff88.js",
+    "static/js/2.fd1cf53d.chunk.js",
+    "static/css/main.e53b13fa.chunk.css",
+    "static/js/main.0fd5fc9d.chunk.js"
   ]
 }
