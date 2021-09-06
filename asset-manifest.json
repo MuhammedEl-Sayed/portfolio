@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.59b14d89.chunk.css",
-    "main.js": "/portfolio/static/js/main.4a9beefd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4a9beefd.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a005ac4c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a005ac4c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.42f8b5cc.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.42f8b5cc.js.map",
-    "static/js/2.adf298ef.chunk.js": "/portfolio/static/js/2.adf298ef.chunk.js",
-    "static/js/2.adf298ef.chunk.js.map": "/portfolio/static/js/2.adf298ef.chunk.js.map",
+    "static/js/2.688835b7.chunk.js": "/portfolio/static/js/2.688835b7.chunk.js",
+    "static/js/2.688835b7.chunk.js.map": "/portfolio/static/js/2.688835b7.chunk.js.map",
     "static/js/3.be47ffa1.chunk.js": "/portfolio/static/js/3.be47ffa1.chunk.js",
     "static/js/3.be47ffa1.chunk.js.map": "/portfolio/static/js/3.be47ffa1.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.59b14d89.chunk.css.map": "/portfolio/static/css/main.59b14d89.chunk.css.map",
-    "static/js/2.adf298ef.chunk.js.LICENSE.txt": "/portfolio/static/js/2.adf298ef.chunk.js.LICENSE.txt",
+    "static/js/2.688835b7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.688835b7.chunk.js.LICENSE.txt",
+    "static/media/DSlanyard.4f4112cc.glb": "/portfolio/static/media/DSlanyard.4f4112cc.glb",
     "static/media/App.css": "/portfolio/static/media/Montserrat-Bold.079ca05d.ttf",
-    "static/media/blanklanyard.927c6cd1.glb": "/portfolio/static/media/blanklanyard.927c6cd1.glb",
+    "static/media/Researchlanyard.aa445638.glb": "/portfolio/static/media/Researchlanyard.aa445638.glb",
+    "static/media/XRLanyard.5a81e0bf.glb": "/portfolio/static/media/XRLanyard.5a81e0bf.glb",
     "static/media/hologram.d73e046a.glb": "/portfolio/static/media/hologram.d73e046a.glb",
     "static/media/hook.17574861.glb": "/portfolio/static/media/hook.17574861.glb",
     "static/media/placard.7cc94612.gltf": "/portfolio/static/media/placard.7cc94612.gltf",
@@ -23,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.42f8b5cc.js",
-    "static/js/2.adf298ef.chunk.js",
+    "static/js/2.688835b7.chunk.js",
     "static/css/main.59b14d89.chunk.css",
-    "static/js/main.4a9beefd.chunk.js"
+    "static/js/main.a005ac4c.chunk.js"
   ]
 }
