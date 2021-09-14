@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.89907ac0.chunk.css",
-    "main.js": "/portfolio/static/js/main.5a8d0ce1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5a8d0ce1.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.3dc5a77b.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.3dc5a77b.js.map",
-    "static/js/2.d3438064.chunk.js": "/portfolio/static/js/2.d3438064.chunk.js",
-    "static/js/2.d3438064.chunk.js.map": "/portfolio/static/js/2.d3438064.chunk.js.map",
-    "static/js/3.26ae1c22.chunk.js": "/portfolio/static/js/3.26ae1c22.chunk.js",
-    "static/js/3.26ae1c22.chunk.js.map": "/portfolio/static/js/3.26ae1c22.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.7a101916.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7a101916.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8566d410.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8566d410.js.map",
+    "static/js/2.64c6eac4.chunk.js": "/portfolio/static/js/2.64c6eac4.chunk.js",
+    "static/js/2.64c6eac4.chunk.js.map": "/portfolio/static/js/2.64c6eac4.chunk.js.map",
+    "static/js/3.88b55bb2.chunk.js": "/portfolio/static/js/3.88b55bb2.chunk.js",
+    "static/js/3.88b55bb2.chunk.js.map": "/portfolio/static/js/3.88b55bb2.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.89907ac0.chunk.css.map": "/portfolio/static/css/main.89907ac0.chunk.css.map",
-    "static/js/2.d3438064.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d3438064.chunk.js.LICENSE.txt",
+    "static/js/2.64c6eac4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.64c6eac4.chunk.js.LICENSE.txt",
     "static/media/DSlanyard.4f4112cc.glb": "/portfolio/static/media/DSlanyard.4f4112cc.glb",
     "static/media/App.css": "/portfolio/static/media/Montserrat-Bold.079ca05d.ttf",
     "static/media/Researchlanyard.aa445638.glb": "/portfolio/static/media/Researchlanyard.aa445638.glb",
     "static/media/XRLanyard.5a81e0bf.glb": "/portfolio/static/media/XRLanyard.5a81e0bf.glb",
+    "static/media/bobble.7a6582ef.glb": "/portfolio/static/media/bobble.7a6582ef.glb",
     "static/media/hologram.d73e046a.glb": "/portfolio/static/media/hologram.d73e046a.glb",
     "static/media/hook.17574861.glb": "/portfolio/static/media/hook.17574861.glb",
     "static/media/placard.7cc94612.gltf": "/portfolio/static/media/placard.7cc94612.gltf",
@@ -24,9 +25,9 @@
     "static/media/unityLogo.ce3ee7a0.gltf": "/portfolio/static/media/unityLogo.ce3ee7a0.gltf"
   },
   "entrypoints": [
-    "static/js/runtime-main.3dc5a77b.js",
-    "static/js/2.d3438064.chunk.js",
+    "static/js/runtime-main.8566d410.js",
+    "static/js/2.64c6eac4.chunk.js",
     "static/css/main.89907ac0.chunk.css",
-    "static/js/main.5a8d0ce1.chunk.js"
+    "static/js/main.7a101916.chunk.js"
   ]
 }
