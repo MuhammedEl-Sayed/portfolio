@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.89907ac0.chunk.css",
-    "main.js": "/portfolio/static/js/main.51ab0531.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.51ab0531.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.966abd43.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.966abd43.js.map",
-    "static/js/2.479952ba.chunk.js": "/portfolio/static/js/2.479952ba.chunk.js",
-    "static/js/2.479952ba.chunk.js.map": "/portfolio/static/js/2.479952ba.chunk.js.map",
-    "static/js/3.95b9f5d0.chunk.js": "/portfolio/static/js/3.95b9f5d0.chunk.js",
-    "static/js/3.95b9f5d0.chunk.js.map": "/portfolio/static/js/3.95b9f5d0.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.33d77c19.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.33d77c19.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8566d410.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8566d410.js.map",
+    "static/js/2.75446fd2.chunk.js": "/portfolio/static/js/2.75446fd2.chunk.js",
+    "static/js/2.75446fd2.chunk.js.map": "/portfolio/static/js/2.75446fd2.chunk.js.map",
+    "static/js/3.88b55bb2.chunk.js": "/portfolio/static/js/3.88b55bb2.chunk.js",
+    "static/js/3.88b55bb2.chunk.js.map": "/portfolio/static/js/3.88b55bb2.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.89907ac0.chunk.css.map": "/portfolio/static/css/main.89907ac0.chunk.css.map",
-    "static/js/2.479952ba.chunk.js.LICENSE.txt": "/portfolio/static/js/2.479952ba.chunk.js.LICENSE.txt",
+    "static/js/2.75446fd2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.75446fd2.chunk.js.LICENSE.txt",
     "static/media/DSlanyard.4f4112cc.glb": "/portfolio/static/media/DSlanyard.4f4112cc.glb",
     "static/media/App.css": "/portfolio/static/media/Montserrat-Bold.079ca05d.ttf",
     "static/media/Researchlanyard.aa445638.glb": "/portfolio/static/media/Researchlanyard.aa445638.glb",
@@ -26,9 +26,9 @@
     "static/media/smallerLogo.dd935cb4.glb": "/portfolio/static/media/smallerLogo.dd935cb4.glb"
   },
   "entrypoints": [
-    "static/js/runtime-main.966abd43.js",
-    "static/js/2.479952ba.chunk.js",
+    "static/js/runtime-main.8566d410.js",
+    "static/js/2.75446fd2.chunk.js",
     "static/css/main.89907ac0.chunk.css",
-    "static/js/main.51ab0531.chunk.js"
+    "static/js/main.33d77c19.chunk.js"
   ]
 }
