@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.89907ac0.chunk.css",
-    "main.js": "/portfolio/static/js/main.858d29dd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.858d29dd.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.8566d410.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8566d410.js.map",
-    "static/js/2.6c926015.chunk.js": "/portfolio/static/js/2.6c926015.chunk.js",
-    "static/js/2.6c926015.chunk.js.map": "/portfolio/static/js/2.6c926015.chunk.js.map",
-    "static/js/3.88b55bb2.chunk.js": "/portfolio/static/js/3.88b55bb2.chunk.js",
-    "static/js/3.88b55bb2.chunk.js.map": "/portfolio/static/js/3.88b55bb2.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.33b4e6b3.chunk.css",
+    "main.js": "/portfolio/static/js/main.aaee403a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.aaee403a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d61da942.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d61da942.js.map",
+    "static/js/2.59b39a7d.chunk.js": "/portfolio/static/js/2.59b39a7d.chunk.js",
+    "static/js/2.59b39a7d.chunk.js.map": "/portfolio/static/js/2.59b39a7d.chunk.js.map",
+    "static/js/3.fb8fe797.chunk.js": "/portfolio/static/js/3.fb8fe797.chunk.js",
+    "static/js/3.fb8fe797.chunk.js.map": "/portfolio/static/js/3.fb8fe797.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.89907ac0.chunk.css.map": "/portfolio/static/css/main.89907ac0.chunk.css.map",
-    "static/js/2.6c926015.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6c926015.chunk.js.LICENSE.txt",
+    "static/css/main.33b4e6b3.chunk.css.map": "/portfolio/static/css/main.33b4e6b3.chunk.css.map",
+    "static/js/2.59b39a7d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.59b39a7d.chunk.js.LICENSE.txt",
     "static/media/DSlanyard.4f4112cc.glb": "/portfolio/static/media/DSlanyard.4f4112cc.glb",
     "static/media/App.css": "/portfolio/static/media/Montserrat-Bold.079ca05d.ttf",
     "static/media/Researchlanyard.aa445638.glb": "/portfolio/static/media/Researchlanyard.aa445638.glb",
     "static/media/XRLanyard.5a81e0bf.glb": "/portfolio/static/media/XRLanyard.5a81e0bf.glb",
     "static/media/bobble.7a6582ef.glb": "/portfolio/static/media/bobble.7a6582ef.glb",
+    "static/media/frog.756ff6dd.glb": "/portfolio/static/media/frog.756ff6dd.glb",
     "static/media/gitIcon.26e7b6f0.glb": "/portfolio/static/media/gitIcon.26e7b6f0.glb",
     "static/media/hologram.d73e046a.glb": "/portfolio/static/media/hologram.d73e046a.glb",
     "static/media/hook.17574861.glb": "/portfolio/static/media/hook.17574861.glb",
@@ -24,12 +25,13 @@
     "static/media/placard.cf98b553.glb": "/portfolio/static/media/placard.cf98b553.glb",
     "static/media/shelf.071d4cbe.gltf": "/portfolio/static/media/shelf.071d4cbe.gltf",
     "static/media/ship.685ce8f4.glb": "/portfolio/static/media/ship.685ce8f4.glb",
-    "static/media/smallerLogo.dd935cb4.glb": "/portfolio/static/media/smallerLogo.dd935cb4.glb"
+    "static/media/smallerLogo.dd935cb4.glb": "/portfolio/static/media/smallerLogo.dd935cb4.glb",
+    "static/media/trowel.357f81c8.glb": "/portfolio/static/media/trowel.357f81c8.glb"
   },
   "entrypoints": [
-    "static/js/runtime-main.8566d410.js",
-    "static/js/2.6c926015.chunk.js",
-    "static/css/main.89907ac0.chunk.css",
-    "static/js/main.858d29dd.chunk.js"
+    "static/js/runtime-main.d61da942.js",
+    "static/js/2.59b39a7d.chunk.js",
+    "static/css/main.33b4e6b3.chunk.css",
+    "static/js/main.aaee403a.chunk.js"
   ]
 }
