@@ -5,13 +5,13 @@
     "main.js.map": "/portfolio/static/js/main.150db10b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8566d410.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8566d410.js.map",
-    "static/js/2.7cb2e705.chunk.js": "/portfolio/static/js/2.7cb2e705.chunk.js",
-    "static/js/2.7cb2e705.chunk.js.map": "/portfolio/static/js/2.7cb2e705.chunk.js.map",
+    "static/js/2.91fd8ac9.chunk.js": "/portfolio/static/js/2.91fd8ac9.chunk.js",
+    "static/js/2.91fd8ac9.chunk.js.map": "/portfolio/static/js/2.91fd8ac9.chunk.js.map",
     "static/js/3.88b55bb2.chunk.js": "/portfolio/static/js/3.88b55bb2.chunk.js",
     "static/js/3.88b55bb2.chunk.js.map": "/portfolio/static/js/3.88b55bb2.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.33b4e6b3.chunk.css.map": "/portfolio/static/css/main.33b4e6b3.chunk.css.map",
-    "static/js/2.7cb2e705.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7cb2e705.chunk.js.LICENSE.txt",
+    "static/js/2.91fd8ac9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.91fd8ac9.chunk.js.LICENSE.txt",
     "static/media/DSlanyard.4f4112cc.glb": "/portfolio/static/media/DSlanyard.4f4112cc.glb",
     "static/media/App.css": "/portfolio/static/media/Montserrat-Bold.079ca05d.ttf",
     "static/media/Researchlanyard.aa445638.glb": "/portfolio/static/media/Researchlanyard.aa445638.glb",
@@ -30,7 +30,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8566d410.js",
-    "static/js/2.7cb2e705.chunk.js",
+    "static/js/2.91fd8ac9.chunk.js",
     "static/css/main.33b4e6b3.chunk.css",
     "static/js/main.150db10b.chunk.js"
   ]
