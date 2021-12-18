@@ -1,25 +1,44 @@
 {
+  "homepage": "https://muhammedel-sayed.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
+    "@14islands/r3f-scroll-rig": "^6.1.12",
+    "@craco/craco": "^6.4.0",
+    "@material-ui/core": "^4.12.3",
+    "@react-spring/three": "^9.3.0",
+    "@react-three/cannon": "^2.6.1",
+    "@react-three/drei": "^7.20.0",
+    "@react-three/fiber": "^7.0.17",
+    "@react-three/gltfjsx": "^4.3.4",
+    "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "@types/jest": "^26.0.24",
-    "@types/node": "^12.20.17",
-    "@types/react": "^17.0.15",
-    "@types/react-dom": "^17.0.9",
+    "@types/node": "^12.20.36",
+    "@types/react": "^17.0.34",
+    "@types/react-dom": "^17.0.11",
+    "gh-pages": "^3.2.3",
+    "image-outline": "^0.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "typescript": "^4.3.5",
+    "react-scroll-wheel-handler": "^2.1.0",
+    "react-text-transition": "^1.3.0",
+    "react-use-gesture": "^9.1.3",
+    "react-use-scroll-direction": "^0.1.0",
+    "styled-components": "^5.3.3",
+    "three": "^0.131.3",
+    "typescript": "^4.4.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +58,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.15",
+    "@types/three": "^0.130.2",
+    "@welldone-software/why-did-you-render": "^6.2.1",
+    "install": "^0.13.0",
+    "react-animated-text": "^0.1.4"
   }
 }

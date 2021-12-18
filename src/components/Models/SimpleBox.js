@@ -79,7 +79,7 @@ export const SimpleGeometry = forwardRef((props, forwarded) => {
         <boxBufferGeometry attach="geometry"></boxBufferGeometry>
         <meshStandardMaterial
           transparent={true}
-          opacity={1}
+          opacity={0}
           attach="material"
         />
       </instancedMesh>

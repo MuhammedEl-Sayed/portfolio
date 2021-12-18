@@ -18,9 +18,7 @@ import { Debug, Physics } from "@react-three/cannon"
 import { Button, Hidden } from "@material-ui/core"
 import { makeStyles } from '@material-ui/core/styles';
 import BoxContent from './components/HtmlBS/BoxContent';
-import GeneralModel from './components/GeneralModel';
 import { LIcon } from './components/settings/Boxes';
-import ReturnModel from './components/Helpers/GLBReroute';
 
 var cameraPositions = [] as any;
 cameraPositions = [0, -.3, -.6, -.9]
@@ -88,42 +86,33 @@ function ScrollingCamera(props: any) {
     <PerspectiveCamera ref={ref} makeDefault fov={60} position={[0, 0, 20]} rotation={[0, 0, 0]} />
   )
 }
-interface IMyContext {
-  headerText: object,
-  bodyText: object
-}
-const defaultContext: IMyContext = {
-  headerText: Object,
-  bodyText: Object
-};
-//@ts-ignore
-//export const MyContext = React.createContext<{ headerText: (string | React.Dispatch<React.SetStateAction<string>>)[]; bodyText: (string | React.Dispatch<React.SetStateAction<string>>)[]; }>(["poo", {} as any], ["oop", {} as any]);
-export const MyContext = React.createContext<MyContext>({} as MyContext);
 
+/* type AppContextState = { text: string; enable: boolean }
+
+
+const  ContextText = {
+    state: {text: "", enable: false},
+    setState: (state: AppContextState) => { }
+
+}; */
+/* const initialState : ContextText = {
+  text: "wow",
+  enable: true,
+}
+ */
+//export const MyContext = React.createContext(ContextText);
 
 function App() {
   const classes = useStyles();
   const [y]: any = useScrollY([-2400, 0], { domTarget: window })
-  const [headerText, setHeaderText] = useState("w");
-  const [bodyText, setBodyText] = useState("g");
-  useEffect(() => {
-    setHeaderText("wpw");
-    setBodyText("213")
-  }, [])
+  //const [state, setState] = useState(ContextText.state);
 
 
-  /* 
-   
-  <a.group position-y={y.to((y: any) => y)}>
-    <ScrollingCamera />
-  </a.group>   <Shelf color={state.color} />
-   */
-
-  const [state, setstate] = useState({ color: "" })
+  const [color, setstate] = useState({ color: "" })
   const changeState = () => {
 
-    if (colors.includes(state.color)) {
-      setstate({ color: colors[colors.indexOf(state.color) + 1] })
+    if (colors.includes(color.color)) {
+      setstate({ color: colors[colors.indexOf(color.color) + 1] })
     }
     else {
       setstate({ color: colors[0] })
@@ -133,10 +122,14 @@ function App() {
   };
   const colors: any = ["#0400ff", "#FF0F0F", "#12F12F", "#ffffff"]
   return (
-    <MyContext.Provider value={{ headerText: [headerText, setHeaderText], bodyText: [bodyText, setBodyText] }}>
+
       <div className=" m-0 p-0 bg-black relative">
-        <div className="absolute bg-green-100 h-screen w-screen">
+        <div className="absolute bg-black h-screen w-screen">
           <Canvas shadows frameloop="demand">
+
+            <a.group position-y={y.to((y: any) => y)}>
+              <ScrollingCamera />
+            </a.group>   
             <ambientLight />
             <spotLight
               color={"#ffffff"}
@@ -148,11 +141,11 @@ function App() {
             />
             <Physics>
               <Suspense fallback={null}>
-                <Shelf color={state.color} />
+                <Shelf color={color.color} />
                 <Preload all />
+            
               </Suspense>
             </Physics>
-            <OrbitControls />
           </Canvas>
           <Loader />
         </div>
@@ -164,7 +157,7 @@ function App() {
           <BoxContent />
         </div>
       </div >
-    </MyContext.Provider>
+
   );
 }
 export default App;

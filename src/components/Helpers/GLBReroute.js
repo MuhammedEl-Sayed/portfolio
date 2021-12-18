@@ -1,8 +1,11 @@
-import model from "../Models/linkicon.glb"
 
-export default function ReturnModel(){
-    var wow = model;
-
-    return wow;
-
-}
+export {default as LanyardDS} from "../Models/DSlanyard.js"
+export {default as Lanyard} from "../Models/Blanklanyard.js"
+export {default as Frog} from "../Models/Frog.js"
+export {default as GitIcon} from "../Models/GitIcon.js"
+export {default as Hologram} from "../Models/Hologram.js"
+export {default as LnIcon} from "../Models/Lnicon.js"
+export {default as Placard} from "../Models/Placard.js"
+export {default as Ship} from "../Models/Ship.js"
+export {default as Trowel} from "../Models/Trowel.js"
+export {default as LanyardXR} from "../Models/XRlanyard.js"
