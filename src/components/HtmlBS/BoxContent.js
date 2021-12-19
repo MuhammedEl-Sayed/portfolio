@@ -1,23 +1,25 @@
 import React, { Suspense, useEffect, useMemo, useRef, useState } from "react";
-import { MyContext } from "../Models/Shelf";
+import { CanvasContext, TextContext } from "../Helpers/SceneWrapper";
 export default function BoxContent(props) {
-  const text = React.useContext(MyContext);
- 
+  const context = React.useContext(TextContext);
+
   useEffect(() => {
-    console.log(text);
-  }, [text.state]);
+    console.log(context)
+  }, [context])
 
   return (
     <>
-    { text.state &&
-    <div className="flex absolute content-center col-auto">
-      <div className="bg-gray-600 bg-transparent opacity-50 min-w-52 min-h-52 max-w-xl min-h-xl">
-        <span></span>
-        
-      </div>
-    </div>
-}
-</>
+      {context.text.enable &&
+
+        <div className=" flex relative w-screen items-center justify-center">
+          <div className="">
+            <span className=" m-auto">{context.text.content}</span>
+
+          </div>
+        </div>
+
+      }
+    </>
   );
 
 

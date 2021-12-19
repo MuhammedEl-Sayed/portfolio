@@ -19,6 +19,7 @@
     "@types/node": "^12.20.36",
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
+    "craco": "^0.0.3",
     "gh-pages": "^3.2.3",
     "image-outline": "^0.1.0",
     "react": "^17.0.2",
@@ -63,7 +64,10 @@
     "@types/styled-components": "^5.1.15",
     "@types/three": "^0.130.2",
     "@welldone-software/why-did-you-render": "^6.2.1",
+    "autoprefixer": "^9.8.8",
     "install": "^0.13.0",
-    "react-animated-text": "^0.1.4"
+    "postcss": "^7.0.39",
+    "react-animated-text": "^0.1.4",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }

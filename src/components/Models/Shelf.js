@@ -21,40 +21,20 @@ import state from "../../hooks/layout";
 
 
 
-const  ContextText = {
-    state: false,
-    setState: (state) => { }
 
-};
 /* const initialState : ContextText = {
   text: "wow",
   enable: true,
 }
  */
-export const MyContext = React.createContext(ContextText);
 
-export const AppProvider = (props) => {
-  const [state, setState] = useState(ContextText.state);
 
-  return (
-    // memoize `value` to optimize performance, if AppProvider is re-rendered often 
-    <MyContext.Provider value={{ state, setState }}>
-      {props.children}
-    </MyContext.Provider>
-  );
-};
 export default function Shelf(props) {
   const { viewport } = useThree();
   const boxSize = [5, 1.2, 25];
   const { nodes, materials } = useGLTF(model);
-  const text = React.useContext(MyContext);
 
 
-     useEffect(() => {
-      console.log(text.state);
-    }, [text.state]);
-  
-    
 
 
   const [ref] = useCompoundBody(() => ({
@@ -107,12 +87,11 @@ export default function Shelf(props) {
       },
     ],
   }));
-  /*   <Lanyard2  position={[8,-15,-1.2]} />
-  <Lanyard3 position={[0,-15,-1.2]} />
-  <Lanyard position={[-8,-15,-1.2]} /> */
+  /*   
+            
+  */
   return (
     <>
-    <AppProvider>
 
       <group
         ref={ref}
@@ -271,45 +250,7 @@ export default function Shelf(props) {
         position={[0, -38, 0]}
         rotation={[0, 0, -Math.PI / 2]}
       />
-      <Hook position={[-8, -11, -0.3]} />
-      <Hook position={[0, -11, -0.3]} />
-      <Hook position={[8, -11, -0.3]} />
-      <Models.Lanyard
-        positionOfObj={[0, -14, -1]}
-        rotationOfObj={[0, -Math.PI / 2, 0]}
-      />
-      <Models.LanyardDS
-        positionOfObj={[-8, -14, -1]}
-        rotationOfObj={[0, -Math.PI / 2, 0]}
-      />
-      <Models.LanyardXR
-        positionOfObj={[8, -14, -1]}
-        rotationOfObj={[0, -Math.PI / 2, 0]}
-      />
-      <Models.Frog positionOfObj={[9, -30, 1]} />
 
-      <Models.GitIcon
-        positionOfObj={[4, -45, 1]}
-        rotationOfObj={[-Math.PI / 2, 0, 0]}
-      />
-      <Models.LnIcon
-        positionOfObj={[-4, -45, 1]}
-        rotationOfObj={[Math.PI / 2, 0, 0]}
-      />
-      <Models.Placard
-        positionOfObj={[0, 0, 1]}
-        rotationOfObj={[Math.PI / 2.3, -Math.PI / 2, 0]}
-        onClick={() => {
-          let newState ={...text.state, text: "Please god work", enable: true}
-          text.setState(true)
-          console.log(text.state)
-      
-        }}
-      />
-      <Models.Trowel positionOfObj={[0, -30, 1]} />
-      <Models.Ship positionOfObj={[-9, -30, 1]} />
-            
-    </AppProvider>
     </>
   );
 }
