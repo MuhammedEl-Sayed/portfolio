@@ -10,7 +10,7 @@ import { MathUtils } from "three";
 import { useScrollDirection } from 'react-use-scroll-direction'
 import { a } from "@react-spring/three"
 import { TextContext, CanvasContext } from "./Helpers/SceneWrapper";
-
+import {introText} from "./HtmlBS/HoverText"
 var cameraPositions = [];
 cameraPositions = [0, -.3, -.6, -.9]
 
@@ -84,12 +84,12 @@ export default function Scene(props) {
 
     const tcontext = useContext(TextContext)
 
-    const handleEnableText=( s) => { 
-           tcontext.setText({enable: true, content: s})
+    const handleEnableText=( s, t) => { 
+           tcontext.setText({enable: true, content: s, title: t})
     }
 
     const handleDisableText = () => {
-        tcontext.setText({enable: false, ...tcontext.content})
+        tcontext.setText({enable: false, ...tcontext.content, ...tcontext.title})
     }
 
 
@@ -146,7 +146,7 @@ export default function Scene(props) {
                         rotationOfObj={[Math.PI / 2.3, -Math.PI / 2, 0]}
                         onPointerOver={() => {
                             
-                            handleEnableText("Holder ");
+                            handleEnableText(introText(),"Welcome to my portfolio website!");
 
                         }}
                         onPointerOut={() => {

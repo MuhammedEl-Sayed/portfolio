@@ -16,7 +16,7 @@ make sure to wrap the scene wrapper with the first context.
 
 
 const DefaultText = {
-    text: {enable: false, content: ""},
+    text: {enable: false, content: () => () => console.log("nothing"), title: ""},
     setText: (state) => { }
 
 };
