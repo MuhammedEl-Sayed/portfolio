@@ -47,9 +47,9 @@ function App() {
 
   return (
 
-      <div className=" m-0 p-0 bg-black relative">
-
+      <div className=" m-0 p-0  h-screen relative bg-wall bg-no-repeat bg-cover bg-center">
         <SceneWrapper/>
+        
 
 
       </div >

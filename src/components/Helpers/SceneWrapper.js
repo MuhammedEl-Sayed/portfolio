@@ -16,7 +16,7 @@ make sure to wrap the scene wrapper with the first context.
 
 
 const DefaultText = {
-    text: {enable: false, content: "Blank"},
+    text: {enable: false, content: ""},
     setText: (state) => { }
 
 };
@@ -30,7 +30,7 @@ function ContextBridger() {
 
     return (
         <>
-        <div className="absolute bg-black h-screen w-screen">
+        <div className="absolute h-screen w-screen">
                 <Canvas shadows frameloop="demand">
                     {/* create the bridge inside the Canvas and forward the context */}
                     <ContextBridge>

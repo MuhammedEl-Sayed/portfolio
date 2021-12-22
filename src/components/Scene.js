@@ -84,8 +84,12 @@ export default function Scene(props) {
 
     const tcontext = useContext(TextContext)
 
-    const handleSetText=(s) => { 
+    const handleEnableText=( s) => { 
            tcontext.setText({enable: true, content: s})
+    }
+
+    const handleDisableText = () => {
+        tcontext.setText({enable: false, ...tcontext.content})
     }
 
 
@@ -140,9 +144,14 @@ export default function Scene(props) {
                     <Models.Placard
                         positionOfObj={[0, 0, 1]}
                         rotationOfObj={[Math.PI / 2.3, -Math.PI / 2, 0]}
-                        onClick={() => {
+                        onPointerOver={() => {
                             
-                            handleSetText("( . ) ( . ) ");
+                            handleEnableText("Holder ");
+
+                        }}
+                        onPointerOut={() => {
+                            
+                            handleDisableText();
 
                         }}
                     />

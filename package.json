@@ -23,6 +23,7 @@
     "gh-pages": "^3.2.3",
     "image-outline": "^0.1.0",
     "react": "^17.0.2",
+    "react-animations": "^1.0.0",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "react-scroll-wheel-handler": "^2.1.0",
