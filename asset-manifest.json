@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.741f6d49.chunk.css",
+    "main.js": "/portfolio/static/js/main.8b649eec.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8b649eec.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.7b48f9c4.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.7b48f9c4.js.map",
+    "static/js/2.cd1037d0.chunk.js": "/portfolio/static/js/2.cd1037d0.chunk.js",
+    "static/js/2.cd1037d0.chunk.js.map": "/portfolio/static/js/2.cd1037d0.chunk.js.map",
+    "static/js/3.091adb36.chunk.js": "/portfolio/static/js/3.091adb36.chunk.js",
+    "static/js/3.091adb36.chunk.js.map": "/portfolio/static/js/3.091adb36.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.741f6d49.chunk.css.map": "/portfolio/static/css/main.741f6d49.chunk.css.map",
+    "static/js/2.cd1037d0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.cd1037d0.chunk.js.LICENSE.txt",
+    "static/media/DSlanyard.4f4112cc.glb": "/portfolio/static/media/DSlanyard.4f4112cc.glb",
+    "static/media/Researchlanyard.aa445638.glb": "/portfolio/static/media/Researchlanyard.aa445638.glb",
+    "static/media/XRLanyard.5a81e0bf.glb": "/portfolio/static/media/XRLanyard.5a81e0bf.glb",
+    "static/media/frog.756ff6dd.glb": "/portfolio/static/media/frog.756ff6dd.glb",
+    "static/media/gitIcon.26e7b6f0.glb": "/portfolio/static/media/gitIcon.26e7b6f0.glb",
+    "static/media/hologram.d73e046a.glb": "/portfolio/static/media/hologram.d73e046a.glb",
+    "static/media/hook.17574861.glb": "/portfolio/static/media/hook.17574861.glb",
+    "static/media/linkicon.5c105a95.glb": "/portfolio/static/media/linkicon.5c105a95.glb",
+    "static/media/placard.cf98b553.glb": "/portfolio/static/media/placard.cf98b553.glb",
+    "static/media/shelf.071d4cbe.gltf": "/portfolio/static/media/shelf.071d4cbe.gltf",
+    "static/media/ship.685ce8f4.glb": "/portfolio/static/media/ship.685ce8f4.glb",
+    "static/media/smallerLogo.dd935cb4.glb": "/portfolio/static/media/smallerLogo.dd935cb4.glb",
+    "static/media/trowel.357f81c8.glb": "/portfolio/static/media/trowel.357f81c8.glb"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b48f9c4.js",
+    "static/js/2.cd1037d0.chunk.js",
+    "static/css/main.741f6d49.chunk.css",
+    "static/js/main.8b649eec.chunk.js"
+  ]
+}
