@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.741f6d49.chunk.css",
-    "main.js": "/portfolio/static/js/main.8b649eec.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8b649eec.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.7b48f9c4.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.7b48f9c4.js.map",
-    "static/js/2.cd1037d0.chunk.js": "/portfolio/static/js/2.cd1037d0.chunk.js",
-    "static/js/2.cd1037d0.chunk.js.map": "/portfolio/static/js/2.cd1037d0.chunk.js.map",
-    "static/js/3.091adb36.chunk.js": "/portfolio/static/js/3.091adb36.chunk.js",
-    "static/js/3.091adb36.chunk.js.map": "/portfolio/static/js/3.091adb36.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ceea46bf.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ceea46bf.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8010a4f5.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8010a4f5.js.map",
+    "static/js/2.fce39330.chunk.js": "/portfolio/static/js/2.fce39330.chunk.js",
+    "static/js/2.fce39330.chunk.js.map": "/portfolio/static/js/2.fce39330.chunk.js.map",
+    "static/js/3.e99ce8f0.chunk.js": "/portfolio/static/js/3.e99ce8f0.chunk.js",
+    "static/js/3.e99ce8f0.chunk.js.map": "/portfolio/static/js/3.e99ce8f0.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.741f6d49.chunk.css.map": "/portfolio/static/css/main.741f6d49.chunk.css.map",
-    "static/js/2.cd1037d0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.cd1037d0.chunk.js.LICENSE.txt",
+    "static/js/2.fce39330.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fce39330.chunk.js.LICENSE.txt",
     "static/media/DSlanyard.4f4112cc.glb": "/portfolio/static/media/DSlanyard.4f4112cc.glb",
     "static/media/Researchlanyard.aa445638.glb": "/portfolio/static/media/Researchlanyard.aa445638.glb",
     "static/media/XRLanyard.5a81e0bf.glb": "/portfolio/static/media/XRLanyard.5a81e0bf.glb",
@@ -27,9 +27,9 @@
     "static/media/trowel.357f81c8.glb": "/portfolio/static/media/trowel.357f81c8.glb"
   },
   "entrypoints": [
-    "static/js/runtime-main.7b48f9c4.js",
-    "static/js/2.cd1037d0.chunk.js",
+    "static/js/runtime-main.8010a4f5.js",
+    "static/js/2.fce39330.chunk.js",
     "static/css/main.741f6d49.chunk.css",
-    "static/js/main.8b649eec.chunk.js"
+    "static/js/main.ceea46bf.chunk.js"
   ]
 }
