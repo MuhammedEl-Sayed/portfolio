@@ -40,17 +40,21 @@ module.exports = {
                 'fade-in': {
                     '0%': {
                         opacity: '0',
+                        transform: 'translateX(30px)'
                     },
                     '100%': {
                         opacity: '1',
+                        transform: 'translateX(0px)'
                     },
                 },
                 'fade-out': {
                     '0%': {
                         opacity: '1',
+                        transform: 'translateX(0px)'
                     },
                     '100%': {
                         opacity: '0',
+                        transform: 'translateX(30px)'
                     },
                 },
                 'fade-out-up': {

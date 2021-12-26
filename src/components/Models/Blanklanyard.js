@@ -28,17 +28,18 @@ export default function Lanyard(props){
   useEffect(() => {
     const unsubscribe = api.position.subscribe((v) => (position.current = v));
     return unsubscribe;
-  }, []);
+  });
   useEffect(() => {
     const unsubscribe = api.rotation.subscribe((v) => (rot.current = v));
     return unsubscribe;
-  }, []);
+  });
   const [dragging, setDrag] = useState(false);
   const [lastPos, setLastPos] = useState([0,0])
   
   useFrame(() => {
     
     if (dragging === false) {
+ 
       box.current.position.set(
         position.current[0],
         position.current[1],
@@ -48,7 +49,7 @@ export default function Lanyard(props){
       setLastPos([position.current[0], position.current[1]])
       api.wakeUp();
     }  if(dragging === true) {
-      
+      console.log("Start dragging BL")
       api.sleep();
       api.position.copy(box.current.position);
       api.rotation.copy(box.current.rotation);

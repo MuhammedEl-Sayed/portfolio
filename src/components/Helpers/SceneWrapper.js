@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, Suspense } from "react";
 import * as THREE from "three";
 import { useContextBridge, Loader } from "@react-three/drei";
 import Scene from "../Scene";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import BoxContent from "../HtmlBS/BoxContent";
 import { Button } from "@material-ui/core";
+import * as Models from "./../Helpers/GLBReroute"
+import { Debug, Physics } from "@react-three/cannon"
+
 /*
 
 So what you do is:
@@ -14,57 +17,50 @@ and then within the scene we go ahead and consume both contexes.
 make sure to wrap the scene wrapper with the first context.
 */
 
-
 const DefaultText = {
-    text: {enable: false, content: () => () => console.log("nothing"), title: ""},
-    setText: (state) => { }
-
+  text: {
+    enable: false,
+    content: () => () => console.log("nothing"),
+    title: "",
+    beingDragged: false
+  },
+  setText: (state) => {},
 };
 
 export const TextContext = React.createContext(DefaultText);
 export const CanvasContext = React.createContext(DefaultText);
 function ContextBridger() {
+  const ContextBridge = useContextBridge(TextContext);
 
-    const ContextBridge = useContextBridge(TextContext)
+  return (
+    <>
+      <div className="absolute h-screen w-screen">
+        <Canvas shadows frameloop="demand">
+          {/* create the bridge inside the Canvas and forward the context */}
+          <ContextBridge>
+            <Scene />
 
-
-    return (
-        <>
-        <div className="absolute h-screen w-screen">
-                <Canvas shadows frameloop="demand">
-                    {/* create the bridge inside the Canvas and forward the context */}
-                    <ContextBridge>
-                        <Scene />
-
-                    </ContextBridge>
-                </Canvas>
-            
-
-            <Loader />
-            </div>
-            <div className="fixed z-2">
-          <Button variant="contained" >Change LED Color</Button>
+          </ContextBridge>
           
-        </div>
-        </>
+        </Canvas>
 
-    )
-
+        <Loader />
+      </div>
+      <div className="fixed z-2">
+        <Button variant="contained">Change LED Color</Button>
+      </div>
+    </>
+  );
 }
 export default function SceneWrapper() {
-    const [text, setText] = useState(DefaultText.text);
+  const [text, setText] = useState(DefaultText.text);
 
-
-    return (
-        <>
-            <TextContext.Provider value={{ text, setText }}>
-
-                    <ContextBridger />
-                <BoxContent/>
-
-            </TextContext.Provider>
-
-        </>
-
-    )
+  return (
+    <>
+      <TextContext.Provider value={{ text, setText }}>
+        <ContextBridger />
+        <BoxContent />
+      </TextContext.Provider>
+    </>
+  );
 }

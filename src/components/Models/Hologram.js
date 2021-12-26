@@ -131,6 +131,7 @@ export default function Hologram(props){
   />
  <group ref={ref} {...props} dispose={null}>
         <mesh geometry={nodes.Sphere.geometry}raycast={meshBounds} material={materials.legs} />
+        <Model position={[0,2,0]}/>
         <spotLight
           color={"#03fcec"}
           power={100}

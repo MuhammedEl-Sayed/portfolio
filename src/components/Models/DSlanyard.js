@@ -39,6 +39,7 @@ export default function LanyardDS(props){
   useFrame(() => {
     
     if (dragging === false) {
+      
       box.current.position.set(
         position.current[0],
         position.current[1],

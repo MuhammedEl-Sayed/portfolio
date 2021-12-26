@@ -71,7 +71,9 @@ export default function LnIcon (props){
     lastPos={lastPos}
   />
     <group ref={ref}{...props}  dispose={null}>
-    <mesh   raycast={meshBounds} geometry={nodes.Curve001.geometry} material={materials['SVGMat.002']} scale={300.24} />
+    <mesh   raycast={meshBounds} geometry={nodes.Curve001.geometry} material={materials['SVGMat.002']} scale={300.24} >
+    {props.children}
+      </mesh>
   </group>
 
     </>
