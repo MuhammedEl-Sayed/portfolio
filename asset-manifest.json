@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2713049f.chunk.css",
-    "main.js": "/portfolio/static/js/main.d884a3ec.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d884a3ec.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.58bd547c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.58bd547c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.bae6c43f.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.bae6c43f.js.map",
     "static/js/2.8d7b3f8f.chunk.js": "/portfolio/static/js/2.8d7b3f8f.chunk.js",
@@ -12,25 +12,25 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.2713049f.chunk.css.map": "/portfolio/static/css/main.2713049f.chunk.css.map",
     "static/js/2.8d7b3f8f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8d7b3f8f.chunk.js.LICENSE.txt",
-    "static/media/DSlanyard.4f4112cc.glb": "/portfolio/static/media/DSlanyard.4f4112cc.glb",
-    "static/media/Researchlanyard.aa445638.glb": "/portfolio/static/media/Researchlanyard.aa445638.glb",
-    "static/media/XRLanyard.5a81e0bf.glb": "/portfolio/static/media/XRLanyard.5a81e0bf.glb",
-    "static/media/frog.756ff6dd.glb": "/portfolio/static/media/frog.756ff6dd.glb",
+    "static/media/DSlanyard.bf0a8265.glb": "/portfolio/static/media/DSlanyard.bf0a8265.glb",
+    "static/media/Researchlanyard.18f0ebfb.glb": "/portfolio/static/media/Researchlanyard.18f0ebfb.glb",
+    "static/media/XRLanyard.1acaccfc.glb": "/portfolio/static/media/XRLanyard.1acaccfc.glb",
+    "static/media/frog.f2e3e0aa.glb": "/portfolio/static/media/frog.f2e3e0aa.glb",
     "static/media/gitIcon.26e7b6f0.glb": "/portfolio/static/media/gitIcon.26e7b6f0.glb",
-    "static/media/hologram.d73e046a.glb": "/portfolio/static/media/hologram.d73e046a.glb",
-    "static/media/hook.17574861.glb": "/portfolio/static/media/hook.17574861.glb",
-    "static/media/linkicon.5c105a95.glb": "/portfolio/static/media/linkicon.5c105a95.glb",
-    "static/media/placard.cf98b553.glb": "/portfolio/static/media/placard.cf98b553.glb",
-    "static/media/shelf.071d4cbe.gltf": "/portfolio/static/media/shelf.071d4cbe.gltf",
-    "static/media/ship.685ce8f4.glb": "/portfolio/static/media/ship.685ce8f4.glb",
-    "static/media/smallerLogo.dd935cb4.glb": "/portfolio/static/media/smallerLogo.dd935cb4.glb",
-    "static/media/trowel.357f81c8.glb": "/portfolio/static/media/trowel.357f81c8.glb",
+    "static/media/hologram.6548de69.glb": "/portfolio/static/media/hologram.6548de69.glb",
+    "static/media/hook.e8b78764.glb": "/portfolio/static/media/hook.e8b78764.glb",
+    "static/media/linkicon.ffac2a2f.glb": "/portfolio/static/media/linkicon.ffac2a2f.glb",
+    "static/media/placardDraco.8539c738.glb": "/portfolio/static/media/placardDraco.8539c738.glb",
+    "static/media/shelf.b1c9aef5.glb": "/portfolio/static/media/shelf.b1c9aef5.glb",
+    "static/media/ship.3b64121a.glb": "/portfolio/static/media/ship.3b64121a.glb",
+    "static/media/smallerLogo.a9380f49.glb": "/portfolio/static/media/smallerLogo.a9380f49.glb",
+    "static/media/trowel.f040f18c.glb": "/portfolio/static/media/trowel.f040f18c.glb",
     "static/media/index.css": "/portfolio/static/media/wall.8f4238b5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bae6c43f.js",
     "static/js/2.8d7b3f8f.chunk.js",
     "static/css/main.2713049f.chunk.css",
-    "static/js/main.d884a3ec.chunk.js"
+    "static/js/main.58bd547c.chunk.js"
   ]
 }
