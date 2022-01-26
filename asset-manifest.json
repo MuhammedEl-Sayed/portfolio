@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6a48f981.chunk.css",
-    "main.js": "/portfolio/static/js/main.60dffe95.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.60dffe95.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.1499dbee.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1499dbee.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.7b48f9c4.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.7b48f9c4.js.map",
     "static/js/2.82df32a4.chunk.js": "/portfolio/static/js/2.82df32a4.chunk.js",
@@ -24,14 +24,14 @@
     "static/media/placardDraco.8539c738.glb": "/portfolio/static/media/placardDraco.8539c738.glb",
     "static/media/shelf.b1c9aef5.glb": "/portfolio/static/media/shelf.b1c9aef5.glb",
     "static/media/ship.3b64121a.glb": "/portfolio/static/media/ship.3b64121a.glb",
-    "static/media/smallerLogo.a9380f49.glb": "/portfolio/static/media/smallerLogo.a9380f49.glb",
     "static/media/trowel.f040f18c.glb": "/portfolio/static/media/trowel.f040f18c.glb",
+    "static/media/unityDraco.bab0d774.glb": "/portfolio/static/media/unityDraco.bab0d774.glb",
     "static/media/index.css": "/portfolio/static/media/wall.8f4238b5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7b48f9c4.js",
     "static/js/2.82df32a4.chunk.js",
     "static/css/main.6a48f981.chunk.css",
-    "static/js/main.60dffe95.chunk.js"
+    "static/js/main.1499dbee.chunk.js"
   ]
 }
